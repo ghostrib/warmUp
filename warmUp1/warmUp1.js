@@ -25,9 +25,21 @@ function average (array){
 }
 // the answer for the average of [13,14,13,15,16,17,19,13,16,15] is 15.1
 //===========================================================
-function age (birthYear, thisYear){
-    year = thisYear-birthYear;
-    return year * 31536000
+function age (bday, bmonth , byear, todayd, todaym, todayy){
+   var year= todayy - byear;
+   var month=0;
+   var day= 0;
+   var resultInDay = 0;
+    if (bmonth>todaym) {
+        month = (12 - bmonth)+ todaym;
+        year = year - 1;
+    } else month = todaym - bmonth
+    if (bday>todayd ) {
+        day = (30 - bday) + todayd;
+        month = month - 1;
+    } else day = todayd - bday;
+    resultInDay = (year * 365) + (month * 30) + day;
+    return resultInDay * 24 * 3600;
 }
-// my age in seconds is 914544000. note that this computation soes not into account if the year is 365 or 366. it is based only on the base of 365.
+// my age in seconds is 927331200. note that this computation soes not into account if the year is 365 or 366. it is based only on the base of 365 and the month is 30 day.
 //1 common year = 365 days = (365 days) × (24 hours/day) × (3600 seconds/hour) = 31536000 seconds
