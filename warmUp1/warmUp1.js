@@ -24,7 +24,7 @@ function average (array){
       total= total+array[i];
     }
     return total / array.length; 
-}
+}git 
 
  //=========== 4 ============
 
@@ -36,3 +36,5 @@ function average (array){
 
 
  }
+
+ /////////
