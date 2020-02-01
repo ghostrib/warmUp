@@ -4,3 +4,21 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+//1 
+Name ="Siwar"+" "+ "Hkimi"
+//2
+ 13%3
+//3 
+ function avrg (arr){
+    var sum=0 
+    for (var i=0;i<arr.length;i++){
+        sum=sum+arr[i]
+}
+    return sum/arr.length 
+}
+
+//4 
+ Age = 28*365*24*60*60
+or 
+arr [31,28,31,30,31,30,31,30,31,31,30,31]
+my age 
