@@ -51,4 +51,4 @@ function ages(age,month,day){
    m=((month-1)*30+day)*24*60*60;
 
     return age*365*24*60*60+m
-}*/
+}*///
