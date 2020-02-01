@@ -46,11 +46,3 @@ ageInSeconds = x * ageInYears;
 console.log(ageInSeconds)
 
 
-
-
-function ageInSeconds(ageInYears, monthsAdded) {
-	ageSeconds = 365.25 * 24 * 60 * 60 * ageInYears
-	monthSeconds = 30 *
-
-
-}
